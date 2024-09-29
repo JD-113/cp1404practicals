@@ -1,4 +1,3 @@
-"""CP1404 Practical determine score adding function"""
 
 def main():
     score = float(input("Enter score: "))
