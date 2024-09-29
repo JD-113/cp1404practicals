@@ -1,7 +1,11 @@
+import random
+
 
 def main():
     score = float(input("Enter score: "))
     print(determine_score(score))
+    random_score = random.randint(0, 100)
+    print(determine_score(random_score))
 
 
 def determine_score(score):
