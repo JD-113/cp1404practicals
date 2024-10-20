@@ -1,6 +1,3 @@
-
-
-
 def main():
     email_to_name = {}
     email = input('Email: ')
@@ -14,8 +11,6 @@ def main():
 
     for email, name in email_to_name.items():
         print(name, email)
-
-    pass
 
 
 def extract_name_from_email(email):
