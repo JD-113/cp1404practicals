@@ -2,7 +2,6 @@
 Estimated time: 2 hours
 Time taken: 5 hours
 """
-from datetime import datetime
 
 
 class Project:

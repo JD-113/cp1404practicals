@@ -1,3 +1,5 @@
+"""guitar.py
+Guitar class program"""
 from datetime import datetime
 
 VINTAGE_AGE = 50

@@ -1,3 +1,9 @@
+"""
+My guitars program
+Estimated time : 40 Minutes
+Time taken : 1 hour
+"""
+
 import csv
 from prac_07.guitar import Guitar
 

@@ -1,4 +1,6 @@
-"""Project management program."""
+"""Project management program.
+Estimated time : 2 hours
+Time taken : 5 hours"""
 from prac_07.project import Project
 import datetime
 
