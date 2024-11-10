@@ -1,5 +1,6 @@
 """Project management system.
 Estimated time: 2 hours
+Time taken: 5 hours
 """
 from datetime import datetime
 
@@ -12,18 +13,26 @@ class Project:
         self.name = name
         self.start_date = start_date
         self.priority = priority
-        self.cost = float(cost)
+        self.cost = cost
         self.completion = completion
+
+    def __repr__(self):
+        return str(self)
+
+    def __gt__(self, other):
+        return self.priority > other.priority
 
     def __str__(self):
         """Return string representation of the project."""
         return f"{self.name}, start: {self.start_date}, priority {self.priority}, " \
                f"estimate: ${self.cost:.2f}, completion: {self.completion}%"
 
-    def __lt__(self, other):
-        """Enable sorting projects by priority."""
-        return self.priority < other.priority
-
     def is_complete(self):
-        """Return True if project is complete."""
-        return self.completion == 100
+        """Determine if project is complete."""
+        return self.completion >= 100
+
+    def started_date(self, other):
+        if self.start_date > other:
+            return True
+        else:
+            return False
