@@ -1,5 +1,5 @@
 """
-cp1404 practical Convert miles to kilometers
+CP1404 practical Convert miles to kilometers
 """
 
 from kivy.app import App

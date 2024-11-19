@@ -1,4 +1,4 @@
-"""CP1404 Practical: Box layout"""
+"""CP1404 Prac Box layout"""
 
 from kivy.app import App
 from kivy.lang import Builder
