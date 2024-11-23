@@ -1,4 +1,4 @@
-"""CP1404 Prac Taxi test"""
+"""CP1404 Prac_09 Taxi test"""
 
 from prac_09.taxi import Taxi
 
@@ -11,3 +11,6 @@ def main():
     my_taxi.start_fare()
     my_taxi.drive(100)
     print(my_taxi)
+
+
+main()
